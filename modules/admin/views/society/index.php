@@ -10,7 +10,7 @@ use yii\grid\GridView;
 /** @var app\modules\admin\SocietyAppSearch $searchModel */
 /** @var yii\data\ActiveDataProvider $dataProvider */
 
-$this->title = Yii::t('app', 'Societies');
+$this->title = Yii::t('app', 'Кружки');
 
 ?>
 <div class="society-index">
@@ -18,7 +18,7 @@ $this->title = Yii::t('app', 'Societies');
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a(Yii::t('app', 'Create Society'), ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a(Yii::t('app', 'Создать кружок'), ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>

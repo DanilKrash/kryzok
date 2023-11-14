@@ -50,10 +50,10 @@ class Proposal extends \yii\db\ActiveRecord
     {
         return [
             'id' => Yii::t('app', 'ID'),
-            'whole_name' => Yii::t('app', 'Ф.И.О'),
+            'whole_name' => Yii::t('app', 'Имя'),
             'telephone' => Yii::t('app', 'Телефон'),
-            'age_id' => Yii::t('app', 'Возрастная категория'),
-            'society_id' => Yii::t('app', 'Клуб'),
+            'age_id' => Yii::t('app', 'Возраст'),
+            'society_id' => Yii::t('app', 'Кружок'),
         ];
     }
 

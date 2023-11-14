@@ -87,3 +87,6 @@ a.desc:after {
     margin-bottom: 1rem;
 }
 
+.nav-link:hover {
+    color: #989898;
+}
